@@ -37,6 +37,7 @@ export function App() {
                 </div>
               </li>
             ))}
+            {suggestions.length == 0 && <li>Aucun compte trouvé</li>}
           </ul>
         )}
       </div>
